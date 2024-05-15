@@ -15,7 +15,7 @@
   - USB Dongle “Tributo”
   
 ## 3. free5gcのディレクトリ/ファイルについて
-  /home/user/free5gc(\~/free5gc)配下に下図の通り、保存している。
+  /home/user/free5gc(\~/free5gc)配下に下図の通り、保存している。  
 free5gc/
 ┣ bin  
 ┃  ┣ amf  
