@@ -1,0 +1,12 @@
+[Unit]
+Description=Start web server
+After=network-online.target
+
+[Service]
+User=user
+ExecStart=/bin/bash -c 'cd /home/user/free5gc/webconsole && /usr/local/go/bin/go run /home/user/free5gc/webconsole/server.go'
+Restart=always
+Type=simple
+
+[Install]
+WantedBy=multi-user.target

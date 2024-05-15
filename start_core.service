@@ -1,0 +1,12 @@
+[Unit]
+Description = example
+After=network-online.target
+ConditionPathExists=/home/user/free5gc
+
+[Service]
+ExecStart=/home/user/free5gc/run.sh
+Restart=no
+Type=simple
+
+[Install]
+WantedBy=multi-user.target
