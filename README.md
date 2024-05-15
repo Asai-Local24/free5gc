@@ -79,10 +79,10 @@ free5gc/
   e.g.)  
 - sudo systemctl status start_core.service : 現在のステータスを表示
 - sudo systemctl stop start_core.service : run.shのサービスを停止
-- sudo systemctl start start_core.service : run.shのサービスを起動
-ユニット定義ファイルの保存ディレクトリ
+- sudo systemctl start start_core.service : run.shのサービスを起動  
+### ユニット定義ファイルの保存ディレクトリ  
 - /etc/systemd/system/
-ユニット定義ファイル
+### ユニット定義ファイル  
 - start_core.service　：free5gcのコアネットワーク起動スクリプト(run.shを実行)
 - start_webserver.service　：SIM情報登録用Web serverの起動(go run server.goの実行)
 
